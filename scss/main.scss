@@ -1,0 +1,36 @@
+*,
+*:after,
+*:before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  width: 190px;
+  height: 110px;
+  border: 1px solid black;
+  .wrapper{
+    .block{
+      margin: 0 auto 8px auto;
+      width: 163px;
+      display: flex;
+      label{
+        margin-right: 10px;
+      }
+      select{
+        outline: none;
+      }
+    }
+    .out{
+      margin: 0 auto;
+      width: 163px;
+      p{
+        margin-bottom: 6px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
